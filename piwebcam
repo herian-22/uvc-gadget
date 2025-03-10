@@ -13,4 +13,4 @@ sudo /home/pi/uvc-gadget/multi-gadget.sh
 sudo /home/pi/uvc-gadget/uvc-gadget -f1 -s1 -r0 -u /dev/video1 -v /dev/video0 -w 1600 -h 1200
 
 # For 1920x1080 (WIDTH2, HEIGHT2):
-# sudo /home/pi/uvc-gadget/uvc-gadget -f1 -s1 -r1 -u /dev/video1 -v /dev/video0 -w 1920 -h 1080
+ sudo /home/pi/uvc-gadget/uvc-gadget -f1 -s1 -r1 -u /dev/video1 -v /dev/video0 -w 1920 -h 1080
