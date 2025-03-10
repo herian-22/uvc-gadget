@@ -9,8 +9,8 @@ sudo /home/pi/uvc-gadget/multi-gadget.sh
 /usr/bin/v4l2-ctl -c contrast=20
 /usr/bin/v4l2-ctl -c video_bitrate=25000000
 
-# For 1600x1200 (WIDTH1, HEIGHT1):
-sudo /home/pi/uvc-gadget/uvc-gadget -f1 -s1 -r0 -u /dev/video1 -v /dev/video0 -w 1600 -h 1200
+# For 4K resolution (3840x2160):
+sudo /home/pi/uvc-gadget/uvc-gadget -f1 -s1 -r2 -u /dev/video1 -v /dev/video0 -w 3840 -h 2160
 
-# For 1920x1080 (WIDTH2, HEIGHT2):
- sudo /home/pi/uvc-gadget/uvc-gadget -f1 -s1 -r1 -u /dev/video1 -v /dev/video0 -w 1920 -h 1080
+# For Full HD resolution (1920x1080):
+sudo /home/pi/uvc-gadget/uvc-gadget -f1 -s1 -r1 -u /dev/video1 -v /dev/video0 -w 1920 -h 1080
